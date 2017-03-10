@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+	font-family: 'Raleway', Arial, sans-serif;
+	box-sizing: border-box;
+}
+/* Creating frames of layout */	
+.container{
+	margin: 0 auto;
+	width: 1060px;
+}
+header, section{
+	width: 100%;
+}
+header{
+	background-color: #000;
+	height: 60px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 60px;
+}
+.slider{
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+	height: 500px;
+}
+.col-3{
+	width: 330px;
+	border: 1px dotted black;
+}
+.overview{
+	height: 225px;
+	border: 1px dotted black;
+}
+.offer{
+	height: 500px;
+}
+.column{
+	display: flex;
+	justify-content: space-between;
+	display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.contact{
+	width: 650px;
+	height: 500px;
+	border: 1px dotted black;
+}
+.send-btn{
+	width: 350px;
+	height: 500px;
+	border: 1px dotted black;
+
+}
+/*header*/
+
+.logo{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.main-color{
+	color: #27C7AB;
+}
+.logo.main-color, h1 .main-color{
+	font-weight: 700;
+}
+nav ul#main-menu li{
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 50px;	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+}
+nav{
+	position: relative;
+}
+ul#submenu{
+
+	background-color: transparent;
+	position: absolute;	
+	right: 203px;
+	z-index: 3;
+	padding-top: 15px;
+	display: none;
+}
+ul#submenu li{
+	width: 130px;
+	background-color: #000;
+	text-align: center;
+	padding: 0;
+}
+.hover:hover ul#submenu{
+	display: block;
+}
+.half{
+	width: 50%;
+	text-align: center;
+}
+img{
+	width: 100%;
+	display: block;
+	padding-top: 80px;
+}
+p.main-color{
+	font-size: 80px;
+	font-weight: 200;
+}
+p.main-color:first-child{
+	position: absolute;
+	top: 40%;
+}
+p.main-color:last-child{
+	position: absolute;
+	top: 40%;
+	right: 0;
+}
+.slider div.container{
+	position: relative;
+}
+.btn{
+	background-color: 
+}
+h1{
+	text-transform: uppercase;
+	font-size: 32px;
+	padding-top: 140px;
+	width: 70%;
+}
+div.half p{
+	padding: 40px 140px 35px 0;
+	width: 70%;
+}
+.overview img{
+	padding: 0;
+}
+.underline{
+	border-bottom: 3px solid #27C7AB;
+
+}
+h2.underline{
+	width: 50%;
+}
+#articles{
+	padding: 30px 0 100px 0;
+}
+#offerts{
+	background-color: #F1F1F1;
+}
+
+
+
+
+
+
+
+
+
+
