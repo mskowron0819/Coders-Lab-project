@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<meta name="decription" content="Sit on chair webpage">
+	<meta name="author" content="Magda Skowroń">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sit on chair</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container column">
+			<div class="logo">
+				<p><a href="#">Sit <span class="main-color">on</span> chair</a></p>
+			</div>
+			<nav>
+				<ul id="main-menu">
+					<li class="hover"><a href="#">O firmie</a>
+						<ul id="submenu">
+							<li><a href="#">Aktualności</a></li>
+							<li><a href="#">Nasz team</a></li>
+							<li><a href="#">Historia</a></li>
+						</ul>
+					</li>	
+					<li><a href="#">Galeria</a></li>
+					<li><a href="#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<section class="main-section">
+			<div class="container column">
+				<a href="#" class="main-color" id="prev">&lt;</a>
+				<div class="half slider">
+					<ul>
+					<li><img src="images/black_chair.png" alt="slider image"></li>
+					<li><img src="images/orange.png" alt="slider image"></li>
+					<li><img src="images/red.png"></li>
+					</ul>
+				</div>
+				<div class="half description">
+					<h1>sit <span class="main-color">on</span> our <span class="main-color">chair</span></h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sequi laudantium obcaecati illum dignissimos dolorum quod reprehenderit nobis voluptates odio assumenda, molestiae ut facere eligendi est itaque quam, ducimus molestias!</p>
+					<a href="#" class="btn btn-1"><span>zobacz więcej<span></a>
+				</div>
+				<a href="#" class="main-color" id="next">&gt;</a>
+			</div>
+	</section>
+	<section  class="container column" id="articles">
+		<div class="col-3 overview">
+			<img src="images/box1_img.jpg" alt="White chair">
+			<p><a href="#">Chair <span>clair</span></a></p>
+		</div>
+		<div class="col-3 overview">
+			<img src="images/box2_img.jpg" alt="Chair margarita">
+			<p><a href="#">Chair <span>margarita</span></a></p>
+		</div>
+		<article class="col-3 overview">
+			<h2 class="underline"><a href="#">Finds all inputs</a></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem labore qui vitae magni repudiandae enim ratione, repellat, ad corrupti illo.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni porro sit mollitia </p>
+		</article>
+	</section>
+	<section id="offerts">
+		<div class="container">
+			<h3 class=" underline short-border"> CENNIK</h3>
+		</div>
+		<div class="container column" id="pricing">
+			<div class="col-3 offer">
+				<h4 class="main-color">basic plan</h3>
+				<div class="price-circle">
+					<p><span id="price"><span>8</span>5</span><sup>99</sup></p>
+					<p>PLN/MSC</p>
+				</div>
+				<ul class="features">
+					<li>Zakup towaru + dowóz</li>
+					<li>Serwis</li>
+				</ul>
+				<a href="#" class="btn btn-2"><span>dołącz<span></a>
+			</div>
+			<div class="col-3 offer">
+				<h4 class="main-color">standard plan</h3>
+				<div class="price-circle">
+					<p><span id="price">95</span><sup>99</sup></p>
+					<p>PLN/MSC</p>
+				</div>
+				<ul class="features">
+					<li>Zakup towaru + dowóz</li>
+					<li>Serwis</li>
+					<li>Gwarancja 5 lat</li>
+				</ul>
+				<a href="#" class="btn btn-2"><span class="main-color">dołącz<span></a>
+			</div>
+			<div class="col-3 offer">
+				<h4 class="main-color">advance plan</h3>
+				<div class="price-circle">
+					<p><span id="price">211</span><sup>00</sup></p>
+					<p>PLN/MSC</p>
+				</div>
+				<ul class="features">
+					<li>Zakup towaru + dowóz</li>
+					<li>Serwis</li>
+					<li>Gwarancja 6 lat</li>
+					<li>Porady projektanta</li>
+				</ul>
+				<a href="#" class="btn btn-2"><span>dołącz<span></a>
+			</div>
+		</div>
+	</section>
+	<section class="app">
+		<div class="container column">
+			<div class="col-3">
+				<h3 class="underline">SKOMPONUJ SWOJE KRZESŁO</h3>
+					<div class="drop_down_list" id="type">
+						<span class="list_label">Wybierz rodzaj</span>
+						<span class="list_arrow"></span>
+						<ul class="list_panel">
+							<li data-price="400">Clair</li>
+							<li data-price="600">Margarita</li>
+							<li data-price="800">Selena</li>
+						</ul>
+					</div>
+					<div class="drop_down_list" id="color">
+						<span class="list_label">Wybierz kolor</span>
+						<span class="list_arrow"></span>
+						<ul class="list_panel">
+							<li data-price="50">Czerwony</li>
+							<li data-price="0">Czarny</li>
+							<li data-price="50">Pomarańczowy</li>
+						</ul>
+					</div>
+					<div class="drop_down_list" id="material">
+						<span class="list_label">Wybierz materiał</span>
+						<span class="list_arrow"></span>
+						<ul class="list_panel">
+							<li data-price="100">Tkanina</li>
+							<li data-price="400">Skóra</li>
+						</ul>
+					</div>
+					<div class="checkbox check-box">
+						<input type="checkbox" id="transport" data-price="200">
+						<label for="transport">Transport</label>
+					</div>
+					<!--<div class="checkbox"></div>-->
+					<!--<span class="list_label inline_text">Transport</span>-->
+			</div>
+			<div class="col-3">
+				<img src="images/red_chair.png">
+			</div>
+			<div class="col-3 flex-end">
+				<h3 class="underline align-right">PODSUMOWANIE</h3>
+				<div class="column summary_panel">
+					<div class="panel_left">
+						<h4 class="title">Twój fotel</h4>
+						<span class="color"></span>
+						<span class="pattern"></span>
+						<span class="transport"></span>
+					</div>
+					<div class="panel_right">
+						<h4 class="title value"></h4>
+						<span class="color value"></span>
+						<span class="pattern value"></span>
+						<span class="transport value"></span>
+					</div>
+					<div class="sum_label">SUMA</div>
+					<div class="sum"><strong></strong></div>
+				</div>
+				<a href="" class="btn btn-4">Zamawiam</a>
+			</div>
+		</div>
+	</section>
+	<section  id="contact" class="container">
+		<h3 class=" underline short-border"> KONTAKT</h3>
+		<div class=" column">
+			<div class="contact">
+				<form action="#">
+					<label>
+					<input type="text" name="name" placeholder="Imię"><br>
+					</label>
+					<label>
+					<input type="email" name="email" placeholder="email"><br>
+					</label>
+					<textarea placeholder="Wiadomość"></textarea>
+				</form>
+			</div>
+			<div id="contact-btn">
+				<img src="images/red_chair.png" alt="red chair">
+				<div class="checkbox check-box">
+					<input type="checkbox" id="form-agree" checked>
+					<label for="form-agree">Zgadzam sie na przetwarzanie danych osobowych</label>
+				</div>
+				<form>
+				<button class="btn btn-3" type="submit">wyślij</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="container column">
+		
+			<p>Copyright 2014 | All rights reserved. Sit On Chair</p>
+		
+		<div class="social column">
+			<a href="#"><img src="images/flickr.png">
+			<a href="#"><img src="images/vimeo.png">
+			<a href="#"><img src="images/pinterest.png">
+			<a href="#"><img src="images/twitter.png">
+		</div>
+		<div class="logo">Sit <span>on</span> chair</div>
+	</footer>
+	<script src="js/js.js"></script>
+</body>
+</html>
