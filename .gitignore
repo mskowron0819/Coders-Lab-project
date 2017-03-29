@@ -1,1 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
+1.5 HTML i CSS - warsztaty
+node_modules
+gulpfile.js
+package.json
+README.md
+*.idea
