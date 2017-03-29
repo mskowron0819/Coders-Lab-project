@@ -1,1 +1,10 @@
+<<<<<<< HEAD
       .idea
+=======
+1.5 HTML i CSS - warsztaty
+node_modules
+gulpfile.js
+package.json
+README.md
+*.idea
+>>>>>>> f548abb931831478732d5851a1552c5b3e006357
