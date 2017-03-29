@@ -112,7 +112,7 @@ nav{
 }
 ul#submenu{
 	position: absolute;	
-	right: 203px;
+	right: 238px;
 	z-index: 3;
 	padding-top: 15px;
 	display: none;
@@ -121,7 +121,8 @@ ul#submenu li{
 	width: 130px;
 	background-color: #000;
 	text-align: center;
-	padding: 0;
+	height: 2.2rem;
+	line-height: 2.2rem;
 }
 ul#submenu li a{
 	padding: 0;
@@ -132,7 +133,8 @@ ul#submenu li a:hover{
 	border: none;
 }
 .hover:hover ul#submenu{
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 ul#submenu:before{
 	content: '';
@@ -218,9 +220,6 @@ h3{
 	padding-bottom: 3px;
 	color: #4D4D4D;
 }
-#pricing{
-	padding: 80px 0 70px 0;
-}
 article h2, article p{
 	margin-left: 25px;
 }
@@ -251,10 +250,6 @@ div.col-3.overview p{
 	line-height: 65px;
 	padding-left: 20px; 
 }
-div.col-3.overview a{
-	color: #000;
-	text-transform: none;
-}
 article.col-3.overview, .offer{
 	border: 1px solid lightgrey;
 }
@@ -266,6 +261,12 @@ div.col-3.overview p:before{
 	position: absolute;
 	left: 20px;
 	top: 43px;
+}
+div.col-3.overview:hover p{
+	display: none;
+}
+#offerts .container.column{
+	padding: 80px 0 70px 0;
 }
 .offer:before{
 	content: '';
@@ -406,8 +407,8 @@ section.app {
 }
 .drop_down_list {
 	border: 1px solid #8de0d2;
-	width: 85%;
-	height: 2.4rem;
+	width: 100%;
+	height: 3rem;
 	background-color: white;
 	margin-top:22px;
 	padding: 8px 12px;
