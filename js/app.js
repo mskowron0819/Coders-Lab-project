@@ -112,21 +112,22 @@ document.addEventListener("DOMContentLoaded", function () {
             var emailValue = email.value;
             var nameValue = name.value;
             var messageValue = message.value;
+            var formError = document.getElementById("form-error");
 
             if (emailValue.indexOf("@") === -1) {
-                alert("Wpisz poprawny adres email.");
+                formError.innerText = "Wpisz poprawny adres email.";
                 event.preventDefault();
             }
             if (nameValue.length < 4) {
-                alert("Podaj swoje imię.");
+                formError.innerText = "Podaj swoje imię.";
                 event.preventDefault();
             }
             if (messageValue.length < 10) {
-                alert("Wprowadź wiadomość.");
+                formError.innerText = "Wprowadź wiadomość.";
                 event.preventDefault();
             }
             if (checkboxForm.checked === false) {
-                alert("Aby wysłać wiadomość musisz wyrazić zgodę na przetwarzanie danych osobowych.");
+                formError.innerText = "Aby wysłać wiadomość musisz wyrazić zgodę na przetwarzanie danych osobowych.";
                 event.preventDefault();
             }
         });
